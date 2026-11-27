@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Private Laufzeitdaten
+persons.yaml
+person_images/
+*.db
+*.db-*
+*.sqlite*
+.env
+config.yaml
+
+# Entwürfe und Logs
+*.bak
+*.log
+.DS_Store
+.vscode/
+.idea/
+.persons-*.tmp
+
+# Isolierte Demo-Laufzeitdaten
+demo/data/
+# Laufzeitdaten älterer Versionen
+demo_data/

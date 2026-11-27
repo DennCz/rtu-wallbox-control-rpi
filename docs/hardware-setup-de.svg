@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="355" viewBox="0 0 1000 355" role="img" aria-labelledby="title description">
+  <title id="title">Datenverbindung Raspberry Pi – SH-U10 – Heidelberg Energy Control</title>
+  <desc id="description">Raspberry Pi über USB mit DSD TECH SH-U10 verbunden. A Plus an IN A, B Minus an IN B; beide Busenden terminiert. Keine 5-Volt- oder GND-Verbindung zur Wallbox. S6/2 an der Wallbox auf ON.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#344b60" stroke-width="1.6"/></marker>
+  </defs>
+  <rect x="1" y="1" width="998" height="353" rx="16" fill="#f5f8fa" stroke="#c4d2dc" stroke-width="2"/>
+  <g font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="#17324a">
+    <text x="30" y="37" font-size="23" font-weight="700">RS485 · Datenverbindung</text>
+    <text x="30" y="61" font-size="14" fill="#4b6173">Einzelne Wallbox · externe Steuerung · Modbus RTU 19200 / 8E1 · Adresse 1</text>
+
+    <rect x="30" y="90" width="203" height="155" rx="12" fill="#e1f0e9" stroke="#43836b" stroke-width="1.5"/>
+    <rect x="52" y="111" width="40" height="31" rx="5" fill="#367960"/>
+    <rect x="59" y="117" width="15" height="15" rx="2" fill="#d7eade"/>
+    <path d="M82 116v20 M86 116v20" stroke="#d7eade" stroke-width="2"/>
+    <text x="105" y="131" font-size="17" font-weight="700">Raspberry Pi</text>
+    <text x="47" y="164" font-size="14">Webanwendung</text>
+    <text x="47" y="186" font-size="14">Modbus-Client / Leader</text>
+    <text x="47" y="220" font-size="13" fill="#3f6255">Eigenes Netzteil</text>
+
+    <path d="M234 164 H304" stroke="#344b60" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="269" y="153" text-anchor="middle" font-size="13" font-weight="700">USB</text>
+
+    <rect x="305" y="90" width="225" height="155" rx="12" fill="#fff" stroke="#4e6c81" stroke-width="1.5"/>
+    <text x="321" y="119" font-size="15" font-weight="700">DSD TECH SH-U10</text>
+    <text x="321" y="140" font-size="13" fill="#4c6577">USB / RS485 (CP2102)</text>
+    <text x="321" y="171" font-size="13" fill="#506375">GND / 5V0</text>
+    <text x="321" y="189" font-size="13" fill="#506375">nicht verbunden</text>
+    <rect x="471" y="153" width="59" height="31" rx="4" fill="#e1f4f8"/>
+    <rect x="471" y="198" width="59" height="31" rx="4" fill="#eaf0f4"/>
+    <text x="495" y="174" text-anchor="middle" font-size="15" font-weight="700">A+</text>
+    <text x="495" y="219" text-anchor="middle" font-size="15" font-weight="700">B−</text>
+    <circle cx="530" cy="168.5" r="4" fill="#137b91"/>
+    <circle cx="530" cy="213.5" r="4" fill="#526b82"/>
+
+    <path d="M534 168.5 H745" stroke="#137b91" stroke-width="3"/>
+    <path d="M534 213.5 H745" stroke="#526b82" stroke-width="3"/>
+    <text x="637" y="143" font-size="13" text-anchor="middle" fill="#385268">Geschirmtes Adernpaar</text>
+    <text x="637" y="195" text-anchor="middle" font-size="13" font-weight="600">RS485 · 2-Draht</text>
+
+    <rect x="745" y="90" width="225" height="155" rx="12" fill="#e3f1f3" stroke="#437f88" stroke-width="1.5"/>
+    <text x="762" y="116" font-size="14.5" font-weight="700">Heidelberg Energy Control</text>
+    <text x="762" y="137" font-size="13" fill="#456874">Modbus-Follower · ID 1</text>
+    <rect x="745" y="153" width="63" height="31" rx="4" fill="#d1eaf0"/>
+    <rect x="745" y="198" width="63" height="31" rx="4" fill="#d7e5ea"/>
+    <text x="778" y="174" font-size="13" font-weight="700" text-anchor="middle">IN A</text>
+    <text x="778" y="219" font-size="13" font-weight="700" text-anchor="middle">IN B</text>
+    <circle cx="745" cy="168.5" r="4" fill="#137b91"/>
+    <circle cx="745" cy="213.5" r="4" fill="#526b82"/>
+    <text x="820" y="170" font-size="12" font-weight="700">S4/4: ON</text>
+    <text x="820" y="191" font-size="12" font-weight="700">S5: alle OFF</text>
+    <text x="820" y="213" font-size="12" font-weight="700">S6/2: ON</text>
+    <text x="820" y="229" font-size="11" fill="#456874">Busabschluss aktiv</text>
+
+    <text x="305" y="266" font-size="12" fill="#365c71">120 Ω am Adapterende prüfen;</text>
+    <text x="305" y="282" font-size="12" fill="#365c71">nur ergänzen, wenn nicht vorhanden.</text>
+    <text x="745" y="266" font-size="12" fill="#365c71">Interner Busabschluss</text>
+    <text x="745" y="282" font-size="12" fill="#365c71">am Wallbox-Ende</text>
+
+    <rect x="30" y="303" width="940" height="32" rx="6" fill="#fff0d9"/>
+    <text x="500" y="324" text-anchor="middle" font-size="13" font-weight="650" fill="#794900">Nur Datenleitungen · Polarität und Terminierung prüfen lassen · Netzanschluss separat durch Elektrofachkraft</text>
+  </g>
+</svg>
